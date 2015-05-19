@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 input = "b a c e f d i g h j k l m"
 sorted_chars = input.split.sort
 
