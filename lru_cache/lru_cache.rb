@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # LRU Cache: Least Recently Used Cache
 # Implementation of a cache (key-value store) with a configurable limit
 # of pairs to store. When an element is added at the cache's limit, it
