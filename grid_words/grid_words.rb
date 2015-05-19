@@ -86,11 +86,11 @@ def adjacent_indices_for(row_index, char_index)
     indices.select { |row_index, char_index| row_index != -1 && char_index != -1 }
 end
 
-grid = [
-    ['A', 'R', 'T'],
-    ['S', 'M', 'S']
-]
-dict = ['ARTS', 'FEES', 'SMARTS', 'RAM']
+# grid = [
+#     ['A', 'R', 'T'],
+#     ['S', 'M', 'S']
+# ]
+# dict = ['ARTS', 'FEES', 'SMARTS', 'RAM']
 
-puts "Should be [ARTS, SMARTS, RAM]: #{find_valid_words(grid, dict)}"
+# puts "Should be [ARTS, SMARTS, RAM]: #{find_valid_words(grid, dict)}"
 
