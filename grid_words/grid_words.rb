@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 =begin
 
 If you've heard of games like Boggle and Ruzzle, this is a "solver" for those
