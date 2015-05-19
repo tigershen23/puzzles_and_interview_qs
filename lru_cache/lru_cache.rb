@@ -107,20 +107,20 @@ class Node
   end
 end
 
-cache = LruCache.new(size_limit: 3)
+# cache = LruCache.new(size_limit: 3)
 
-cache.add("name", "tiger")
-puts "should be tiger: #{cache.find("name")}"
+# cache.add("name", "tiger")
+# puts "should be tiger: #{cache.find("name")}"
 
-cache.add("age", "16")
-puts "should be 16: #{cache.find("age")}"
+# cache.add("age", "16")
+# puts "should be 16: #{cache.find("age")}"
 
-cache.add("shoe_size", "9.5")
-cache.add("hair_color", "black")
-puts "should be empty: #{cache.find("name")}"
+# cache.add("shoe_size", "9.5")
+# cache.add("hair_color", "black")
+# puts "should be empty: #{cache.find("name")}"
 
-cache.find("age")
-cache.add("height", "five_seven")
-puts "should be empty: #{cache.find("shoe_size")}"
+# cache.find("age")
+# cache.add("height", "five_seven")
+# puts "should be empty: #{cache.find("shoe_size")}"
 
-puts "access with dummy key should be empty: #{cache.find("dummy_tail")}"
+# puts "access with dummy key should be empty: #{cache.find("dummy_tail")}"
