@@ -1,5 +1,13 @@
 #!/usr/bin/env ruby
 
+# Given a string of letters separated by spaces,
+# e.g. "b a c e f d i h g j": print them out
+# in columns of three, alphabetically, e.g.
+# a e h
+# b f i
+# c g j
+# d
+
 input = "b a c e f d i g h j k l m"
 sorted_chars = input.split.sort
 
